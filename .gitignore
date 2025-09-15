@@ -1,3 +1,6 @@
 .venv
 .idea
 daily_ibm.csv
+.env/
+logs/
+config
