@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_daily_ibm
+    description: "Raw daily IBM stock prices"
+    columns:
+      - name: date
+        description: "Дата котировки"
+        tests:
+          - not_null
+          - unique
+      - name: open
+        description: "Цена открытия"
+        tests:
+          - not_null
+      - name: close
+        description: "Цена закрытия"
+        tests:
+          - not_null
+      - name: volume
+        description: "Объём торгов"
+        tests:
+          - not_null
