@@ -5,3 +5,4 @@ daily_ibm.csv
 logs/
 config
 /.env
+__pycache__
